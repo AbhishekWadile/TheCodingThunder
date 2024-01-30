@@ -31,7 +31,7 @@ def contact():
 
 @app.route("/")
 def hello():
-    return render_template('index.html')
+    return render_template('index1.html')
 
 @app.route("/about")
 def about():
